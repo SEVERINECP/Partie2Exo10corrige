@@ -1,0 +1,15 @@
+img{
+  width: 50%;
+}
+/* taille d'image pour une tablette */
+@media screen and (max-width:992px){
+ img{
+   width: 75%;
+ }
+}
+/* taille d'image pour un smartphone */
+@media screen and (max-width:576px){
+  img{
+    width: 100%;
+  }
+}
